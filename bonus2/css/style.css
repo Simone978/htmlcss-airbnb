@@ -75,6 +75,7 @@ img{
 /* box per le immagini */
 .box{
   height: 35vh;
+  min-width: 180px;
   border: 1px solid black;
   margin-bottom: 5px;
   background-size: cover;
