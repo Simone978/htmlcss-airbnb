@@ -9,20 +9,22 @@
   padding: 10px;
 }
 
+img{
+  width: 100%;
+}
+
 /* contenitore per effetto layover */
-.layover{
-  width: 300px;
-  height: 250px;
+  .layover{
+  width: 30%;
+  height: 35%;
   background-color: rgba(0,0,0,0.5);
 }
 
 /* box per le immagini */
-.box{
-  width: 300px;
-  height: 250px;
-  border: 1px solid black;
+  .box{
+  width: 30%;
+  height: 35%;
   margin-bottom: 5px;
-  background-size: cover;
   position: relative;
   }
 
