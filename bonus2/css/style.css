@@ -92,7 +92,7 @@ img{
     text-shadow: 2px 2px #000000;
   }
 
-  .box:hover .layover{
+  .box:hover .city-name{
     background-color: rgba(0,0,0,0.2);
     text-shadow: none;
   }
