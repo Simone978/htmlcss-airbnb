@@ -39,5 +39,8 @@
 
   .box:hover .layover{
     background-color: rgba(0,0,0,0.2);
-    text-shadow: none;
     }
+
+  .box:hover .city-name{
+    text-shadow: none;
+  }
