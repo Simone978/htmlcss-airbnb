@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* sezione contenitore e layover */
+
+body{
+  margin-top: 82px;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/https___specials-images.forbesimg.com_dam_imageserve_1149089169_960x0.jpg_fit=scale");
+  background-size: cover;
+  background-position: center;
+}
+
+.layover{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0,0.5);
+}
+
+/* sezione menu */
+
+nav.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 82px;
+  width: 100%;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #8BFBF9;
+}
+
+ul li{
+  display: inline-block;
+  line-height: 80px;
+  padding: 0 30px;
+}
+
+img{
+  width: 40px;
+  vertical-align: middle;
+}
+
+nav li:hover{
+  background-color: #454545;
+}
+
+.active{
+  border-bottom: 2px solid #454545;
+}
+
+/* sezione corpo pagina */
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1{
+  color: #ffffff;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.title h2{
+  color: #ffffff;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+}
